@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    background-image: url(/img/miami-trees-triangle-neon-artwork-4k-7r.jpg);
+    background-size: cover;
+    text-shadow: 0px 0px 5px rgb(195, 0, 255);
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+
+}
+
+h1 {
+    color: rgb(162, 0, 255);
+    text-shadow: 1px 1px 2px blue;
+}
+
+h2 {
+    color: rgb(162, 0, 255);
+    text-shadow: 1px 1px 2px blue;
+}
+
+h3 {
+    color: rgb(162, 0, 255);
+    text-shadow: 1px 1px 2px blue;
+}
+
+h4 {
+    color: rgb(162, 0, 255);
+    text-shadow: 1px 1px 2px blue;
+}
+
+p {
+    color: aqua;
+}
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Variables de bootstrap */
+.bg-dark {
+    --bs-bg-opacity: 0.4;
+    background: radial-gradient(circle, rgba(0, 47, 255, 0.432) 0%, rgb(131, 1, 252) 100%);
+    box-shadow: 0px 0px 20px rgb(162, 0, 255);
+}
+
+.navbar-dark {
+    --bs-navbar-color: rgb(0, 183, 255);
+    --bs-navbar-hover-color: rgb(166, 0, 255);
+    --bs-navbar-disabled-color: rgba(0, 162, 255, 0.925);
+    --bs-navbar-active-color: rgba(255, 0, 0, 0.973);
+    --bs-navbar-brand-color: rgb(20, 2, 63);
+    --bs-navbar-brand-hover-color: rgba(210, 8, 250, 0.459);
+    --bs-navbar-toggler-border-color: rgb(140, 0, 255);
+
+
+}
+
+/* FORMULARIO DE CONTACTO */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Estilo del label de los imputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Estilo Boton Submit */
+input[type=submit] {
+    background-color: #6c00f869;
+    color: rgb(0, 152, 212);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/*-------- Estilos y Animaciones de Cards!!!!-------- */
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(240, 99, 205);
+    text-decoration: underline;
+    text-shadow:1px 1px 1px rgb(0, 174, 255);
+}
+
+.card img {
+    object-fit: contain;
+
+}
